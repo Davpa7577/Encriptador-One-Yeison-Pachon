@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+</head>
+<body>
+    <div class="encriptador-1-desktop">
+        <section class="frame-parent">
+            <div class="frame-wrapper">
+                <header class="logo-parent">
+                    <img class="logo-icon" loading="lazy" alt="" src="./public/logo.svg" />
+                    <div class="ingrese-el-texto-aqui-wrapper">
+                        <h1 class="ingrese-el-texto" id="ingreseElTexto">Ingrese el texto aquí</h1>
+                        <input type="text" id="inputTexto" class="ingrese-el-texto" placeholder="Ingrese su texto aquí..." style="display:none; margin-top: 10px;" />
+                    </div>
+                </header>
+            </div>
+            <div class="frame-group">
+                <div class="frame-container">
+                    <div class="biexclamation-circle-fill-wrapper">
+                        <img class="biexclamation-circle-fill-icon" loading="lazy" alt="" src="./public/biexclamationcirclefill.svg" />
+                    </div>
+                    <div class="solo-letras-minsculas">Solo letras minúsculas y sin acentos</div>
+                </div>
+                <div class="button-parent">
+                    <button class="button" id="encriptarButton">
+                        <div class="button1">Encriptar</div>
+                    </button>
+                    <button class="button2" id="desencriptarButton">
+                        <div class="button3">Desencriptar</div>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div class="rectangle-parent">
+            <div class="frame-child"></div>
+            <img class="mueco-icon" loading="lazy" alt="" src="./public/mueco.svg" />
+
+            <div class="message-container">
+                <h3 class="ningn-mensaje-fue">Ningún mensaje fue encontrado</h3>
+                <div class="ingresa-el-texto">Ingresa el texto que desees encriptar o desencriptar.</div>
+            </div>
+            <!-- Contenedor para mostrar el resultado -->
+            <div class="resultado">
+                <p id="resultadoTexto"></p>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="list">
+                <img class="page-icon" alt="" src="./public/page-icon.svg" />
+                <img class="page-icon1" alt="" src="./public/page-icon-1.svg" />
+            </div>
+        </div>
+        <div class="menu1">
+            <div class="list1">
+                <div class="page-icon2">
+                    <div class="page-icon-child"></div>
+                    <div class="pt">PT</div>
+                </div>
+                <div class="page-icon3">
+                    <div class="page-icon-item"></div>
+                    <div class="es">ES</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="./app.js"></script>
+</body>
+</html>
